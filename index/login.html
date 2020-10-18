@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+</head>
+<body>
+    <div id="app__content">
+        <header>
+            <div></div>
+        </header>
+        <main>
+            <div>
+                <div class="header-logo">
+                    <img src="https://s1.ax1x.com/2020/10/18/0jt9WF.png">
+                </div>
+                <div class="header-content">
+                    <h1 class="header-content-heading">欢迎回来</h1>
+                    <p class="header-content-subheading">打开您的私人通讯录系统</p>
+                </div>
+                <form method="post" class="login-form" action="addressBookList.html" onsubmit="return login()">
+                    <input id="input-username" type="text" name="username" placeholder="123"><br>
+                    <input id="input-pwd" type="password" name="username" placeholder="123"><br>
+                    <input class="submit-btn" type="submit" value="登录">
+                </form>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+</html>

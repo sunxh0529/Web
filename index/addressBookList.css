@@ -1,0 +1,22 @@
+form{
+    display: flex;
+    justify-content: space-between;
+}
+.add-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 40px;
+}
+thead{
+    background-color: darkgray;
+}
+thead, tr, td{
+    padding: 15px;
+}
